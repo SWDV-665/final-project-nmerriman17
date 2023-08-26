@@ -1,0 +1,55 @@
+/* MyTrips.css */
+
+/* Styles for the modal */
+.edit-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Styles for form inputs */
+.edit-modal input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for buttons */
+.edit-modal button {
+  margin-top: 10px;
+}
+
+/* Styles for the "My Trips" button */
+.edit-modal ion-button {
+  margin-top: 20px;
+  padding: 15px 20px;
+}
+
+/* Styles for the modal header */
+.edit-modal ion-toolbar {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+
+/* Styles for the modal title */
+.edit-modal ion-title {
+  font-size: 1.2rem;
+}
+
+/* Additional styling for the modal content, if needed */
+
+/* Adjust the map container to fit the screen */
+.map-container {
+  position: absolute;
+  top: 70px; /* Adjust this value based on your layout */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

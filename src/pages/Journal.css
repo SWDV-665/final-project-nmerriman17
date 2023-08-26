@@ -1,0 +1,51 @@
+/* Journal.css */
+
+/* Styling for the list item */
+.ion-item.bookmark-item {
+  border-bottom: 5px solid #ddd;
+  padding: 10px 0;
+}
+
+/* Styling for the journal image */
+.ion-thumbnail.journal-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Styling for the edit and remove buttons */
+ion-button.edit-button {
+  margin-right: 8px;
+}
+
+/* Center the text in IonLabel when editing */
+ion-label.editing {
+  display: flex;
+  align-items: center;
+  h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+/* Styling for the remove button */
+ion-button.remove-button {
+  --color: var(--ion-color-danger);
+}
+
+/* Styling for the add journal section */
+.add-entry {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.boldAndLarge {
+  font-weight: bold;
+  font-size: 1.2em;
+}
